@@ -1,0 +1,36 @@
+.venv
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+dist/
+build/
+*.egg-info/
+.idea/
+.vscode/
+*.swp
+*.swo
+.ipynb_checkpoints
+.env
+.env.local
+
+# Model checkpoints and large files
+*.pkl
+*.h5
+*.model
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
